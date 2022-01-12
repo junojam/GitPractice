@@ -189,3 +189,9 @@ git commit -m "몇번째 commit, 변경내용은 무엇"
 git push origin master
 github에 업로드된 내용을 확인한다.
 ```
+
+
+
+다짐
+
+어렵지만 열심히 잘 해보자 !!
