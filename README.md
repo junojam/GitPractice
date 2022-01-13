@@ -108,16 +108,20 @@ for i in range(10);
 
 ------------------------------------
 
-### Git
+### Git, Github, Gitlab
 
-1. commit 기록자를 등록하기
+Git은 분산 버전 관리 프로그램이다.(로컬 저장소)
+Github는 원격 저장소이다.(public), 분산 협업, 프로젝트 관리, 버전 관리 작업이 가능하다. 포트폴리오에 사용한다.
+Gitlab또한 원격 저장소이지만, 특정 단체, 회사, 연구소에서 자체 서버를 만들어 Git과 소통하는 저장소이다. 단체에서 나가는 순간 권한이 소멸된다.
+
+1. commit 기록자를 등록하기(나의 이름과 이메일을 등록)
 ```
 git config --global user.name "내 이름"
 git config --global user.email "내 이메일"
 git config --global -l
 ```
 
-2. Git에서 Github로 넘어가려면
+2. Git에서 Github로 넘어가기
 
 ```
 Git에서
@@ -154,7 +158,7 @@ git status
 
 6. git commit -m "first commit"
 ```
-메시지 남기기
+메시지 남기기는 필수이다.
 ```
 
 7. git log
@@ -164,6 +168,7 @@ git이 변화한 내역을 볼 수 있다.
 
 8. 원격 저장소 등록
 ```
+git remote -v
 git remote add <이름> <주소>
 git remote add origin https://github.com/junojam/GitPractice.git
 ```
@@ -192,7 +197,7 @@ github에 업로드된 내용을 확인한다.
 
 
 
-다짐
+### 다짐
 
 ```
 싸피 7기 광주 2반 화이팅
